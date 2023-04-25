@@ -22,6 +22,8 @@ import com.google.firebase.ktx.Firebase;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         email = findViewById(R.id.editTextTextEmailAddress);
         password = findViewById(R.id.editTextTextPassword);
         login = findViewById(R.id.loginbutton);
